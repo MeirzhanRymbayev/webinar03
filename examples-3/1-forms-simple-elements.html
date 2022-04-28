@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>forms</title>
+</head>
+
+<body>
+    <form action="https://postman-echo.com/post" method="post" id="form1">
+
+        <fieldset>
+            <legend>User info</legend>
+                <label for="user-email">email</label>
+                <input type="email" name="email" id="user-email" placeholder="your email">
+                <label for="user-password">password</label>
+                <input type="password" name="user-password" id="user-password" placeholder="your password">
+        </fieldset>
+        <fieldset>
+            <legend>Another legend</legend>
+            <label for="field-month">Month</label>
+            <select name="month" id="field-month">
+
+                <option value="">--выберите месяц--</option>
+                <optgroup label="Зима">
+                    <option value="dec">Декабрь</option>
+                    <option value="jan">Январь</option>
+                    <option value="feb">Февраль</option>
+                </optgroup>
+                <optgroup label="Весна">
+                    <option value="mar">Март</option>
+                    <option value="apr">Апрель</option>
+                    <option value="may">Май</option>
+                </optgroup>
+            </select>
+        </fieldset>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+.user-card {
+    background-color: gainsboro;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    width: 350px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.wrapper-user-info {
+    vertical-align: middle;
+}
+
+.user-photo {
+    border: 1px solid black;
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.wrapper-user-photo {
+    float: left;
+}
+
+/* http://nicolasgallagher.com/micro-clearfix-hack/ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
